@@ -123,12 +123,12 @@ $txt['admin_login'] = 'Ingresar a Administración';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Tema';
 $txt['help'] = 'Ayuda';
-$txt['terms_and_rules'] = 'Terms and Rules';
-$txt['watch_board'] = 'Watch this Board';
-$txt['unwatch_board'] = 'Stop Watching Board';
-$txt['watch_topic'] = 'Watch this Topic';
-$txt['unwatch_topic'] = 'Stop Watching Topic';
-$txt['watching_this_topic'] = 'You are watching this topic, and will receive notifications about it.';
+$txt['terms_and_rules'] = 'Términos y normas';
+$txt['watch_board'] = 'Ver éste foro';
+$txt['unwatch_board'] = 'Dejar de ver este foro';
+$txt['watch_topic'] = 'Ver este tema.';
+$txt['unwatch_topic'] = 'Dejar de ver este tema';
+$txt['watching_this_topic'] = 'Estás viendo este tema, y recibirás notificaciones sobre este.';
 $txt['notify'] = 'Notificar';
 $txt['unnotify'] = 'Cancelar Notificación';
 $txt['notify_request'] = '¿Deseas una notificación por email si alguien responde a este tema?';
@@ -146,7 +146,7 @@ $txt['reply_noun'] = 'Respuesta';
 $txt['reply_number'] = 'Responder #%1$s';
 $txt['approve'] = 'Aprobar';
 $txt['unapprove'] = 'Desaprobar';
-$txt['approve_all'] = 'aprobar todo';
+$txt['approve_all'] = 'Aprobar todo';
 $txt['issue_warning'] = 'Enviar una advertencia';
 $txt['awaiting_approval'] = 'Esperando Aprobación';
 $txt['attach_awaiting_approve'] = 'Adjuntos esperando aprobación';
@@ -162,9 +162,9 @@ $txt['msg_alert_many_new'] = '%1$d son nuevos';
 $txt['new_alert'] = 'Nueva Alerta';
 $txt['remove_message'] = 'Eliminar este mensaje';
 
-$txt['topic_alert_none'] = 'No messages...';
-$txt['pm_alert_none'] = 'No messages...';
-$txt['no_messages'] = 'No messages';
+$txt['topic_alert_none'] = 'No hay mensajes...';
+$txt['pm_alert_none'] = 'No hay mensajes...';
+$txt['no_messages'] = 'No hay mensajes';
 
 $txt['online_users'] = 'Usuarios en Línea';
 $txt['jump_to'] = 'Ir a';
@@ -190,7 +190,7 @@ $txt['topic_started'] = 'Mensaje iniciado por';
 $txt['title'] = 'Título';
 $txt['post_by'] = 'Publicado por';
 $txt['memberlist_searchable'] = 'Lista (con opción de búsqueda) de todos los usuarios registrados.';
-$txt['welcome_newest_member'] = 'Please welcome %1$s, our newest member.';
+$txt['welcome_newest_member'] = 'Démosle la bienvenida a %1$s, nuestro miembro más reciente.';
 $txt['admin_center'] = 'Centro de Administración Inmortal';
 $txt['last_edit_by'] = '<span class="lastedit">Last Edit</span>: %1$s by %2$s';
 $txt['last_edit_reason'] = '<span class="lastedit">Razón</span>: %1$s';
@@ -299,7 +299,7 @@ $txt['mark_as_read'] = 'Marcar TODOS los mensajes como leídos';
 $txt['locked_topic'] = 'Tema cerrado';
 $txt['normal_topic'] = 'Tema normal';
 $txt['participation_caption'] = 'Temas en los que has publicado';
-$txt['moved_topic'] = 'Moved Topic';
+$txt['moved_topic'] = 'Tema movido';
 
 $txt['go_caps'] = 'IR';
 
@@ -329,17 +329,17 @@ $txt['minutes'] = 'minutos';
 $txt['seconds'] = 'seconds';
 
 // Used upper case in Paid subscriptions management
-$txt['hour'] = 'Hour';
+$txt['hour'] = 'Hora';
 $txt['days_word'] = 'días';
 
 $txt['search_for'] = 'Buscar por';
-$txt['search_match'] = 'Match';
+$txt['search_match'] = 'Coincidir';
 
-$txt['forum_in_maintainence'] = 'Your forum is in Maintenance Mode. Only administrators can currently log in.';
-$txt['maintenance_page'] = 'You can turn off Maintenance Mode from the <a href="%1$s">Server Settings</a> area.';
+$txt['forum_in_maintainence'] = 'Tu foro está en Modo Mantenimiento. Sólo administradores pueden iniciar sesión.';
+$txt['maintenance_page'] = 'Puedes quitar el Modo Mantenimiento desde <a href="%1$s">Ajustes de servidor</a>.';
 
-$txt['read_one_time'] = 'Read 1 time';
-$txt['read_many_times'] = 'Read %1$d times';
+$txt['read_one_time'] = 'Leer 1 vez';
+$txt['read_many_times'] = 'Leer %1$d veces';
 
 $txt['forum_stats'] = 'Estadísticas Inmortal';
 $txt['latest_member'] = 'Último usuario';
@@ -349,16 +349,16 @@ $txt['latest_post'] = 'Último mensaje';
 $txt['total_boards'] = 'Total de Foros';
 
 $txt['print_page'] = 'Imprimir Página';
-$txt['print_page_text'] = 'Text only';
-$txt['print_page_images'] = 'Text with Images';
+$txt['print_page_text'] = 'Sólo texto';
+$txt['print_page_images'] = 'Texto con imágenes';
 
 $txt['valid_email'] = 'Debe ser una dirección válida de email.';
 
 $txt['geek'] = 'un montón';
 $txt['info_center_title'] = '%1$s - Centro de Información';
 
-$txt['watch'] = 'Watch';
-$txt['unwatch'] = 'Stop watching';
+$txt['watch'] = 'Ver';
+$txt['unwatch'] = 'Dejar de ver';
 
 $txt['check_all'] = 'Seleccionar todo';
 
@@ -373,7 +373,7 @@ $txt['database_error_versions'] = '<strong>Nota:</strong> Parece que tu base de 
 $txt['template_parse_error'] = '¡Error al analizar la Plantilla!';
 $txt['template_parse_error_message'] = 'Parece que algo se ha estropeado en el foro con el sistema de temas.  Este problema puede que solamente sea temporal, por favor, regresa en unos momentos e intentalo nuevamente.  Si continuas viendo este mensaje, por favor contacta al administrador.<br /><br />Puedes intentar <a href="javascript:location.reload();">actualizar esta página</a>.';
 $txt['template_parse_error_details'] = 'Hubo un problema cargando el tema o archivo de idioma <tt><strong>%1$s</strong></tt>.  Por favor revisa la sintaxis e intenta nuevamente - recuerda, los apóstrofes (<tt>\'</tt>) por lo general deben tener una secuencia de escape con la diagonal invertida (<tt>\\</tt>).  Para ver información especifica del error del sitio de PHP intenta <a href="' . $boardurl . '%1$s">acceder al archivo directamente</a>.<br /><br />Puedes intentar <a href="javascript:location.reload();">actualizar esta página</a> o <a href="' . $scripturl . '?theme=1">usar el tema de default</a>.';
-$txt['template_parse_errmsg'] = 'Unfortunately more information is not available at this time as to exactly what is wrong.';
+$txt['template_parse_errmsg'] = 'Desafortunadamente no hay información actual disponible sobre el error.';
 
 $txt['today'] = '<strong>Hoy</strong> a las ';
 $txt['yesterday'] = '<strong>Ayer</strong> a las ';
@@ -383,8 +383,8 @@ $txt['poll_vote'] = 'Enviar voto';
 $txt['poll_total_voters'] = 'Total de votos';
 $txt['shortcuts'] = 'acceso rápido: presiona alt+s para publicar o alt+p para previsualizar';
 $txt['shortcuts_firefox'] = 'Atajos: Presiona shift+alt+s para enviar la entrada o shift+alt+p para pre-visualizarla.';
-$txt['shortcuts_drafts'] = ', alt+d save draft';
-$txt['shortcuts_drafts_firefox'] = ', shift+alt+d save draft';
+$txt['shortcuts_drafts'] = ', alt+d para guardar borrador';
+$txt['shortcuts_drafts_firefox'] = ', shift+alt+d para guardar borrador';
 $txt['poll_results'] = 'Ver resultados';
 $txt['poll_lock'] = 'Cerrar Encuesta';
 $txt['poll_unlock'] = 'Reabrir Encuesta';
@@ -392,16 +392,16 @@ $txt['poll_edit'] = 'Editar Encuesta';
 $txt['poll'] = 'Encuesta';
 $txt['one_day'] = '1 Día';
 $txt['one_week'] = '1 Semana';
-$txt['two_weeks'] = '2 Weeks';
+$txt['two_weeks'] = '2 Semanas';
 $txt['one_month'] = '1 Mes';
-$txt['two_months'] = '2 Months';
+$txt['two_months'] = '2 Meses';
 $txt['forever'] = 'Siempre';
 $txt['quick_login_dec'] = 'Ingresar con nombre de usuario, contraseña y duración de la sesión';
 $txt['one_hour'] = '1 Hora';
 $txt['moved'] = 'MOVIDO';
 $txt['moved_why'] = 'Por favor introduce una breve descripción de<br />por qué este tema se está moviendo.';
-$txt['merged_subject'] = '[MERGED] %1$s';
-$txt['merged_body'] = 'This topic has been merged into [url=%1$s]%2$s[/url].';
+$txt['merged_subject'] = '[Combinado] %1$s';
+$txt['merged_body'] = 'Este tema ha sido combinado en [url=%1$s]%2$s[/url].';
 $txt['board'] = 'Foro';
 $txt['in'] = 'en';
 $txt['sticky_topic'] = 'Tema fijado';
@@ -420,17 +420,17 @@ $txt['code'] = 'Código';
 $txt['code_select'] = '[Seleccionar]';
 $txt['quote_from'] = 'Cita de';
 $txt['quote'] = 'Citar';
-$txt['quote_action'] = 'Quote';
-$txt['fulledit'] = 'Full&nbsp;edit';
-$txt['edit'] = 'Edit';
-$txt['quick_edit'] = 'Quick Edit';
-$txt['post_options'] = 'More...';
+$txt['quote_action'] = 'Cita';
+$txt['fulledit'] = 'Edición&nbsp;completa';
+$txt['edit'] = 'Editar';
+$txt['quick_edit'] = 'Edición rápida';
+$txt['post_options'] = 'Más...';
 
 $txt['merge_to_topic_id'] = 'ID del tema de destino';
 $txt['split'] = 'Dividir Tema';
 $txt['merge'] = 'Combinar Temas';
-$txt['target_id'] = 'Select target by topic ID';
-$txt['target_below'] = 'Select target from the list below';
+$txt['target_id'] = 'Seleccione el objetivo por el ID del Tema.';
+$txt['target_below'] = 'Seleccione el objetivo de la siguiente lista';
 $txt['subject_new_topic'] = 'Asunto para el nuevo tema';
 $txt['split_this_post'] = 'Sólo dividir este mensaje.';
 $txt['split_after_and_this_post'] = 'Dividir tema a partir de este mensaje (incluyéndolo).';
@@ -496,7 +496,7 @@ $txt['calendar_event_options'] = 'Opciones de Eventos';
 $txt['calendar_post_in'] = 'Publicar en:';
 $txt['calendar_edit'] = 'Editar evento';
 $txt['calendar_export'] = 'Export Event';
-$txt['calendar_view_week'] = 'View Week';
+$txt['calendar_view_week'] = 'Ver semana';
 $txt['event_delete_confirm'] = '¿Borrar este evento?';
 $txt['event_delete'] = 'Borrar evento';
 $txt['calendar_post_event'] = 'Publicar evento';
@@ -507,7 +507,7 @@ $txt['calendar_today'] = 'Calendario de Hoy';
 $txt['calendar_week'] = 'Semana';
 $txt['calendar_week_title'] = 'Semana %1$d de %2$d ';
 // %1$s is the month, %2$s is the day, %3$s is the year. Change to suit your language.
-$txt['calendar_week_beginning'] = 'Week beginning %1$s %2$s, %3$s';
+$txt['calendar_week_beginning'] = 'Próxima semana %1$s %2$s, %3$s';
 $txt['calendar_numb_days'] = 'Número de Días:';
 $txt['calendar_how_edit'] = '¿cómo editas esos eventos?';
 $txt['calendar_link_event'] = 'Enlazar evento';
@@ -523,14 +523,14 @@ $txt['move_topic_unapproved_js'] = '¡Advertencia! Este tema aún no ha sido apr
 $txt['movetopic_auto_board'] = '[FORO]';
 $txt['movetopic_auto_topic'] = '[URL DEL TEMA]';
 $txt['movetopic_default'] = 'El tema ha sido movido a ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
-$txt['movetopic_redirect'] = 'Redirect to the moved topic';
-$txt['movetopic_expires'] = 'Automatically remove the redirection topic';
+$txt['movetopic_redirect'] = 'Redirección al tema movido';
+$txt['movetopic_expires'] = 'Eliminar automaticamente la redirección del tema';
 
 $txt['theme_template_error'] = 'No se pudo cargar la plantilla \'%1$s\'.';
 $txt['theme_language_error'] = 'No se pudo cargar el archivo de idioma \'%1$s\'.';
 
-$txt['sub_boards'] = 'Sub-Boards';
-$txt['restricted_board'] = 'Restricted Board';
+$txt['sub_boards'] = 'Sub-Foros';
+$txt['restricted_board'] = 'Foros restringidos';
 
 $txt['smtp_no_connect'] = 'No fue posible conectarse al servidor SMTP';
 $txt['smtp_port_ssl'] = 'Puerto SMTP configurado incorrectamente; debería ser 465 en servidores SSL.';
@@ -581,8 +581,8 @@ $txt['quick_mod_sticky'] = 'Fijar/soltar seleccionado(s)';
 $txt['quick_mod_move'] = 'Mover seleccionado(s) a';
 $txt['quick_mod_merge'] = 'Combinar seleccionado(s)';
 $txt['quick_mod_markread'] = 'Marcar seleccionados como leídos';
-$txt['quick_mod_markunread'] = 'Mark selected unread';
-$txt['quick_mod_selected'] = 'With the selected options do';
+$txt['quick_mod_markunread'] = 'Marcar seleccionados como no leídos';
+$txt['quick_mod_selected'] = 'Con las opciones seleccionadas hacer';
 $txt['quick_mod_go'] = '¡Ir!';
 $txt['quickmod_confirm'] = '¿Estás seguro que deseas hacer esto?';
 
@@ -605,24 +605,24 @@ $txt['notification_disable_topic'] = '¿Estás seguro que deseas desactivar la n
 $txt['mentions'] = 'Mentions';
 
 // Likes
-$txt['likes'] = 'Likes';
-$txt['like'] = 'Like';
-$txt['unlike'] = 'Unlike';
-$txt['like_success'] = 'Your content was successfully liked.';
-$txt['like_delete'] = 'Your content was successfully deleted.';
-$txt['like_insert'] = 'Your content was successfully inserted.';
-$txt['like_error'] = 'There was en error with your request.';
-$txt['like_disable'] = 'Likes feature is disabled.';
-$txt['not_valid_like_type'] = 'The liked type is not a valid type.';
+$txt['likes'] = 'Me gustas';
+$txt['like'] = 'Me gusta';
+$txt['unlike'] = 'No me gusta';
+$txt['like_success'] = 'Su contenido ha recibido Me gusta con éxito.';
+$txt['like_delete'] = 'Su contenido fue eliminado con éxito.';
+$txt['like_insert'] = 'Su contenido ha sido insertado con éxito.';
+$txt['like_error'] = 'Hubo un error con su solicitud.';
+$txt['like_disable'] = 'Función Me gusta está desactivada';
+$txt['not_valid_like_type'] = 'El tipo Me gusta no es un modo válido.';
 // Translators, if you need to make more strings to suit your language, e.g. $txt['likes_2'] = 'Two people like this', please do so.
-$txt['likes_1'] = '<a href="%1$s">%2$s person</a> likes this.';
-$txt['likes_n'] = '<a href="%1$s">%2$s people</a> like this.';
-$txt['you_likes_0'] = 'You like this.';
-$txt['you_likes_1'] = 'You and <a href="%1$s">%2$s other person</a> like this.';
-$txt['you_likes_n'] = 'You and <a href="%1$s">%2$s other people</a> like this.';
+$txt['likes_1'] = '<a href="%1$s">%2$s A alguien</a> le gusta esto.';
+$txt['likes_n'] = '<a href="%1$s">%2$s A más de uno</a> les gusta esto.';
+$txt['you_likes_0'] = 'Te gusta esto.';
+$txt['you_likes_1'] = 'A ti y <a href="%1$s">%2$s a otra persona</a> le gusta esto.';
+$txt['you_likes_n'] = 'A ti y <a href="%1$s">%2$s a más personas</a> les gusta esto.';
 
 $txt['report_to_mod'] = 'Reportar al moderador';
-$txt['report_profile'] = 'Report profile of %1$s';
+$txt['report_profile'] = 'Reportar perfil de %1$s';
 
 $txt['unread_topics_visit'] = 'Nuevos temas no leídos';
 $txt['unread_topics_visit_none'] = 'No se han encontrado temas no leídos desde tu última visita.  <a href="' . $scripturl . '?action=unread;all">Haz <i>clic</i> aquí para intentar todos los temas no leídos</a>.';
@@ -763,10 +763,10 @@ $txt['visual_verification_request_new'] = 'Solicitar otra imagen';
 // Sub menu labels
 $txt['summary'] = 'Resumen';
 $txt['account'] = 'Configuración de Cuenta';
-$txt['theme'] = 'Look and Layout';
+$txt['theme'] = 'Diseño y disposición';
 $txt['forumprofile'] = 'Perfil del Foro';
-$txt['activate_changed_email_title'] = 'Email Address Changed';
-$txt['activate_changed_email_desc'] = 'You\'ve changed your email address. In order to validate this address you will receive an email. Click the link in that email to reactivate your account.';
+$txt['activate_changed_email_title'] = 'Correo electrónico cambiado';
+$txt['activate_changed_email_desc'] = 'Has cambiado tu dirección de correo electrónico. En orden de validar esta dirección, recibirás un mensaje de correo electrónico. Haz clic en el link dentro del mensaje para reactivar tu cuenta.';
 $txt['modSettings_title'] = 'Características y Opciones';
 $txt['package'] = 'Gestor de paquetes';
 $txt['errlog'] = 'Log de Errores';
@@ -811,7 +811,7 @@ $txt['debug_subtemplates'] = 'Sub plantillas:';
 $txt['debug_language_files'] = 'Archivos de idioma:';
 $txt['debug_stylesheets'] = 'Hojas de estilo:';
 $txt['debug_files_included'] = 'Archivos incluídos:';
-$txt['debug_memory_use'] = 'Memory used: ';
+$txt['debug_memory_use'] = 'Memória utilizada: ';
 $txt['debug_kb'] = 'KB.';
 $txt['debug_show'] = 'mostrar';
 $txt['debug_cache_hits'] = 'Caché de resultados:';
@@ -825,31 +825,31 @@ $txt['debug_query_which_took_at'] = 'se demoró %1$s segundos en realizar %2$s p
 $txt['debug_show_queries'] = '[Mostrar Consultas]';
 $txt['debug_hide_queries'] = '[Ocultar Consultas]';
 $txt['debug_tokens'] = 'Tokens: ';
-$txt['debug_browser'] = 'Browser ID: ';
-$txt['debug_hooks'] = 'Hooks called: ';
-$txt['debug_instances'] = 'Instances created: ';
-$txt['are_sure_mark_read'] = 'Are you sure you want to mark messages as read?';
+$txt['debug_browser'] = 'Explorador de ID: ';
+$txt['debug_hooks'] = 'Ganchos llamados: ';
+$txt['debug_instances'] = 'Instancias creadas: ';
+$txt['are_sure_mark_read'] = '¿Estás seguro de que quieres marcar los mensajes como leídos?';
 
 // Accessibility
-$txt['hide_category'] = 'Hide Category';
-$txt['show_category'] = 'Show Category';
-$txt['hide_infocenter'] = 'Hide Info Center';
-$txt['show_infocenter'] = 'Show Info Center';
+$txt['hide_category'] = 'Ocultar categoría';
+$txt['show_category'] = 'Mostrar categoría';
+$txt['hide_infocenter'] = 'Ocultar centro de información';
+$txt['show_infocenter'] = 'Mostrar centro de información';
 
 // Notification post control
-$txt['notify_topic_0'] = 'Not Following';
-$txt['notify_topic_1'] = 'No Alerts or Emails';
-$txt['notify_topic_2'] = 'Receive Alerts';
-$txt['notify_topic_3'] = 'Receive Emails and Alerts';
-$txt['notify_topic_0_desc'] = 'You will not receive any emails or alerts for this post and it will also not show up in your unread replies and topics list. You will still receive @mentions for this topic.';
-$txt['notify_topic_1_desc'] = 'You will not receive any emails or alerts but only @mentions by other members.';
-$txt['notify_topic_2_desc'] = 'You will receive alerts for this topic.';
-$txt['notify_topic_3_desc'] = 'You will receive both alerts and e-mails for this topic.';
-$txt['notify_board_1'] = 'No Alerts or Emails';
-$txt['notify_board_2'] = 'Receive Alerts';
-$txt['notify_board_3'] = 'Receive Emails and Alerts';
-$txt['notify_board_1_desc'] = 'You will not receive any emails or alerts for new topics';
-$txt['notify_board_2_desc'] = 'You will receive alerts for this board.';
-$txt['notify_board_3_desc'] = 'You will receive both alerts and e-mails for this board.';
+$txt['notify_topic_0'] = 'No siguiendo';
+$txt['notify_topic_1'] = 'No recibir alertas o emails';
+$txt['notify_topic_2'] = 'Recibir alertas';
+$txt['notify_topic_3'] = 'Recibir emails y alertas';
+$txt['notify_topic_0_desc'] = 'No recibirás ningún email o alerta de este post y tampoco se mostrarán en tus respuestas no leídas y lista de temas. Todavía recibirás @menciones de este tema.';
+$txt['notify_topic_1_desc'] = 'No recibirás ningun email o alerta, solo @menciones de otros miembros.';
+$txt['notify_topic_2_desc'] = 'Recibirás alertas de este tema.';
+$txt['notify_topic_3_desc'] = 'Recibirás alertas y emails de este tema.';
+$txt['notify_board_1'] = 'No recibir alertas o emails';
+$txt['notify_board_2'] = 'Recibir alertas';
+$txt['notify_board_3'] = 'Recibir emails y alertas';
+$txt['notify_board_1_desc'] = 'No recibirás ningún email ni alerta de nuevos temas.';
+$txt['notify_board_2_desc'] = 'Recibirás alertas de este foro.';
+$txt['notify_board_3_desc'] = 'Recibirás alertas y emails de este foro.';
 
 ?>
