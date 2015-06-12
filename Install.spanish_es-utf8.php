@@ -76,8 +76,8 @@ $txt['default_cry_smiley'] = 'Llorar';
 $txt['default_evil_smiley'] = 'Malvado';
 $txt['default_azn_smiley'] = 'Azn';
 $txt['default_afro_smiley'] = 'Afro';
-$txt['default_laugh_smiley'] = 'Laugh';
-$txt['default_police_smiley'] = 'Police';
+$txt['default_laugh_smiley'] = 'Risa';
+$txt['default_police_smiley'] = 'Policía';
 $txt['default_angel_smiley'] = 'Ángel';
 
 $txt['error_message_click'] = 'Haz <i>clic</i> aquí';
@@ -237,13 +237,13 @@ $txt['upgrade_error_script_js'] = 'El script de actualización no puede encontra
 
 $txt['upgrade_warning_lots_data'] = 'Este script de actualización ha detectado que su foro contiene muchos datos que necesitan ser actualizados. Este proceso puede llevar algo de tiempo dependiendo de su servidor y del tamaño del foro, y para foros muy grandes (~300,000 mensajes) puede requerir varias horas para ser completado.';
 $txt['upgrade_warning_out_of_date'] = '¡Este script de actualización está obsoleto! La versión actual de Inmortal es <em id="smfVersion" style="white-space: nowrap;">??</em> pero este script de actualización es para la <em id="yourVersion" style="white-space: nowrap;">%1$s</em>.<br /><br />Se recomienda que visites la web de <a href="http://www.simplemachines.org">K Dev Team</a> para asegurarte de que estás actualizando a la última versión.';
-$txt['ftp_login'] = 'Your FTP connection information';
-$txt['ftp_login_info'] = 'This web installer needs your FTP information in order to automate the installation for you. Please note that none of this information is saved in your installation, it is just used to setup Inmortal.';
-$txt['ftp_path_help'] = 'Your FTP path is the path you see when you log in to your FTP client. It commonly starts with &quot;<pre>www</pre>&quot;, &quot;<pre>public_html</pre>&quot;, or &quot;<pre>httpdocs</pre>&quot; - but it should include the directory Inmortal is in too, such as &quot;/public_html/forum&quot;. It is different from your URL and full path.<br><br>Files in this path may be overwritten, so make sure it\'s correct.';
-$txt['ftp_path_help_close'] = 'Close';
+$txt['ftp_login'] = 'Su información de conexión FTP';
+$txt['ftp_login_info'] = 'Este instalador web necesita la información de su FTP con el fin de automatizar la instalación para usted. Tenga en cuenta que ninguna de esta información se guarda en su instalación, sólo se utiliza para configurar Inmortal.';
+$txt['ftp_path_help'] = 'Su ruta FTP es la que ve cuando inicia sesión en su cliente FTP. Normalmente comienza por &quot;<pre>www</pre>&quot;, &quot;<pre>public_html</pre>&quot;, o &quot;<pre>httpdocs</pre>&quot; - Pero también debe incluir el directorio Inmortal, tal como &quot;/public_html/forum&quot;. Es diferente a su URL y ruta absoluta.<br><br>Los archivos en esta ruta pueden ser sobreescritos, debe estar seguro de que es la correcta.';
+$txt['ftp_path_help_close'] = 'Cerrar';
 
-$txt['force_ssl'] = 'Enable SSL';
-$txt['force_ssl_label'] = 'Force SSL throughout the forum';
-$txt['force_ssl_info'] = '<b>Make sure SSL and HTTPS are supported throughout the forum, otherwise your forum may become inaccessible</b>';
+$txt['force_ssl'] = 'Habilitar SSL';
+$txt['force_ssl_label'] = 'Forzar SSL en todo el foro';
+$txt['force_ssl_info'] = '<b>Asegúrese que SSL y HTTPS son soportados en todo el foro, de lo contrario su foro puede volverse inaccesible.</b>';
 
 ?>
