@@ -157,7 +157,7 @@ $txt['mc_warning_template_error_no_body'] = 'Debes establecer un cuerpo para la 
 $txt['mc_settings'] = 'Opciones de Cambio';
 $txt['mc_prefs_title'] = 'Preferencias de Moderación';
 $txt['mc_prefs_desc'] = 'Esta sección te permite establecer algunas preferencias personales de moderación relacionadas con actividades como email, notificaciones.';
-$txt['mc_no_settings'] = '¨No hay ajustes para mostrar mostrar';
+$txt['mc_no_settings'] = 'No hay ajustes para mostrar mostrar';
 
 $txt['mc_prefs_notify_approval'] = 'Notificar elementos en espera de aprobación';
 $txt['mc_logoff'] = 'Fin de la sesión de moderador';
