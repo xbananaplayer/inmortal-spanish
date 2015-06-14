@@ -22,18 +22,18 @@ $txt['mc_recent_user_reports'] = 'Recent Profile Reports';
 $txt['mc_warnings'] = 'Advertencias';
 $txt['mc_notes'] = 'Notas de Moderador';
 
-$txt['mc_notes_delete_own'] = 'You are only allowed to delete your own notes.';
-$txt['mc_cannot_connect_sm'] = 'You are unable to connect to simplemachines.org\'s latest news file.';
+$txt['mc_notes_delete_own'] = 'Sólo tienes permiso para borrar tus propias notas.';
+$txt['mc_cannot_connect_sm'] = 'No puedes conectarte al último archivo de simplemachines.org\'s';
 
 $txt['mc_recent_reports_none'] = 'No hay informes a destacar';
 $txt['mc_watched_users_none'] = 'Actualmente no está teniendo lugar ninguna vigilancia.';
 $txt['mc_group_requests_none'] = 'No hay solicitudes abiertas de pertenencia a grupos.';
-$txt['mc_reported_users_none'] = 'There are no pending profile reports.';
+$txt['mc_reported_users_none'] = 'No hay informes de perfil recientes.';
 
 $txt['mc_seen'] = '%1$s última vez visto %2$s ';
 $txt['mc_seen_never'] = '%1$s nunca visto';
 $txt['mc_groupr_by'] = 'por';
-$txt['mc_post_report'] = '%1$s by %2$s';
+$txt['mc_post_report'] = '%1$s por %2$s';
 
 $txt['mc_reported_posts_desc'] = 'Aquí puedes revisar todos los informes de mensajes enviados por los usuarios de la comunidad.';
 $txt['mc_reportedp_active'] = 'Informes activos';
@@ -42,16 +42,16 @@ $txt['mc_reportedp_by'] = 'por';
 $txt['mc_reportedp_reported_by'] = 'Informado por';
 $txt['mc_reportedp_last_reported'] = 'Último Informe';
 $txt['mc_reportedp_none_found'] = 'No se ha encontrado ningún Informe';
-$txt['mc_reportedp_comment_none_found'] = 'No Moderator Comment Found';
-$txt['mc_reportedp_comment_edit'] = 'Edit';
-$txt['mc_reportedp_comment_delete'] = 'Delete';
+$txt['mc_reportedp_comment_none_found'] = 'No se ha encontrado ningún comentario de moderador';
+$txt['mc_reportedp_comment_edit'] = 'Editar';
+$txt['mc_reportedp_comment_delete'] = 'Borrar';
 $txt['mc_reportedp_details'] = 'Detalles';
 $txt['mc_reportedp_close'] = 'Cerrar';
 $txt['mc_reportedp_open'] = 'Abrir';
 $txt['mc_reportedp_ignore'] = 'Ignorar';
 $txt['mc_reportedp_unignore'] = 'No Ignorar';
 $txt['mc_reportedp_delete'] = 'Borrar mensaje';
-$txt['mc_reportedp_new_comment'] = 'Add a new comment';
+$txt['mc_reportedp_new_comment'] = 'Añadir un nuevo comentario';
 $txt['mc_reportedp_delete_confirm'] = '¿Estás seguro de que quieres borrar este mensaje?';
 $txt['mc_reportedp_ban'] = 'Prohibir el acceso a este usuario';
 // Do not use numeric entries in the below string.
@@ -92,11 +92,11 @@ $txt['mc_modreport_modactions'] = 'Acciones tomadas por otros moderadores';
 $txt['mc_modreport_mod_comments'] = 'Comentarios de moderadores';
 $txt['mc_modreport_no_mod_comment'] = 'Actualmente no hay comentarios de ningún moderador.';
 $txt['mc_modreport_add_mod_comment'] = 'Añadir comentario';
-$txt['mc_modreport_edit_mod_comment'] = 'Edit Comment';
+$txt['mc_modreport_edit_mod_comment'] = 'Editar comentario';
 
-$txt['mc_viewmemberreport'] = 'Report for profile of %1$s';
-$txt['mc_memberreport_summary'] = 'There have been %1$d report(s) concerning this member. The last report was %2$s.';
-$txt['mc_memberreport_whoreported_title'] = 'Members who have reported this member.';
+$txt['mc_viewmemberreport'] = 'Informe para el perfil de %1$s';
+$txt['mc_memberreport_summary'] = 'Hay %1$d informe(s) acerca de este usuario. El último informe fue %2$s.';
+$txt['mc_memberreport_whoreported_title'] = 'Miembros que han reportado a este usuario.';
 
 $txt['show_notice'] = 'Texto de Aviso';
 $txt['show_notice_subject'] = 'Asunto';
@@ -132,13 +132,13 @@ $txt['mc_warning_template_add'] = 'Añadir plantilla';
 $txt['mc_warning_template_modify'] = 'Editar plantilla';
 $txt['mc_warning_template_delete'] = 'Eliminar seleccionadas';
 $txt['mc_warning_template_delete_confirm'] = 'Seguro que quieres elimilar las plantillas seleccionadas?';
-$txt['report_action_message_saved'] = 'You successfully created a new comment.';
-$txt['report_action_message_edited'] = 'You successfully edited the comment.';
+$txt['report_action_message_saved'] = 'Has creado un nuevo comentario satisfactoriamente.';
+$txt['report_action_message_edited'] = 'Has editado el comentario satisfactoriamente.';
 $txt['report_action_message_deleted'] = 'El mensaje fue correctamente borrado.';
-$txt['report_action_message_edit_issue'] = 'The message you\'re trying to edit isn\'t available any more. Please check if it wasn\'t deleted already.';
-$txt['report_action_message_edit_cannot'] = 'I\'m sorry, you aren\'t allowed to edit this comment.';
-$txt['report_action_message_delete_cannot'] = 'I\'m sorry, you aren\'t allowed to delete this comment.';
-$txt['report_action_message_delete_issue'] = 'The message you\'re trying to delete isn\'t available any more. Please check if it wasn\'t deleted already.';
+$txt['report_action_message_edit_issue'] = 'El mensaje que intentas editar no está disponible. Por favor, comprueba que no haya sido eliminado.';
+$txt['report_action_message_edit_cannot'] = 'Lo siento, no tienes permiso para editar este comentario.';
+$txt['report_action_message_delete_cannot'] = 'Lo siento, no tienes permiso para borrar este comentario.';
+$txt['report_action_message_delete_issue'] = 'El mensaje que intentas borrar no está disponible. Por favor, comprueba que no haya sido eliminado.';
 $txt['report_action_ignore'] = 'El informe fue correctamente ignorado.';
 $txt['report_action_unignore'] = 'El informe dejó de ser ignorado correctamente.';
 $txt['report_action_close'] = 'El informe fue cerrado correctamente.';
@@ -157,7 +157,7 @@ $txt['mc_warning_template_error_no_body'] = 'Debes establecer un cuerpo para la 
 $txt['mc_settings'] = 'Opciones de Cambio';
 $txt['mc_prefs_title'] = 'Preferencias de Moderación';
 $txt['mc_prefs_desc'] = 'Esta sección te permite establecer algunas preferencias personales de moderación relacionadas con actividades como email, notificaciones.';
-$txt['mc_no_settings'] = 'There are no settings to display.';
+$txt['mc_no_settings'] = '¨No hay ajustes para mostrar mostrar';
 
 $txt['mc_prefs_notify_approval'] = 'Notificar elementos en espera de aprobación';
 $txt['mc_logoff'] = 'Fin de la sesión de moderador';
@@ -167,8 +167,8 @@ $txt['mc_click_add_note'] = 'Añadir una nueva nota';
 $txt['mc_add_note'] = 'Añadir';
 
 // Do not use numeric entries in the below string.
-$txt['mc_reportedm_ignore_confirm'] = 'Are you sure you wish to ignore further reports about this user\'s profile?\\n\\nThis will turn off further reports for everyone.';
-$txt['mc_reported_members_title'] = 'Reported Members';
-$txt['mc_reported_members_desc'] = 'Allows you to view a list of all users whose profiles have been reported';
+$txt['mc_reportedm_ignore_confirm'] = '¿Estás seguiro de que deseas ignorar nuevos informes sobre el perfil de este usuario.\\n\\nSe desactivarán para todos los usuarios.';
+$txt['mc_reported_members_title'] = 'Miembros reportados';
+$txt['mc_reported_members_desc'] = 'Le permite ver una lista de todos los usuarios cuyos perfiles han sido reportados';
 
 ?>
