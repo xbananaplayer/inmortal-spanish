@@ -36,7 +36,7 @@ $txt['paid_email_desc'] = 'Informar al administrador cuando una suscripción cam
 $txt['paid_email_to'] = 'Destinatarios email notificaciones';
 $txt['paid_email_to_desc'] = 'Lista separada por comas de direcciones de email adicionales a las que enviar notificaciones además de a los administradores del foro.';
 $txt['paidsubs_test'] = 'Habilitar modo de prueba';
-$txt['paidsubs_test_desc'] = 'This puts the paid subscriptions mod into &quot;test&quot; mode, which will, whereever possible, use sandbox payment methods in paypal etc. Do not enable unless you know what you are doing!';
+$txt['paidsubs_test_desc'] = 'Esto pone al mod de suscripciones pagadas en modo &quot;test&quot;, que serán, siempre que sea posible, los métodos de pago utilización sandbox en paypal etc. no habilitar a menos que sepa lo que está haciendo!';
 $txt['paidsubs_test_confirm'] = '¿Estás seguro de que quieres activar el modo de prueba?';
 $txt['paid_email_no'] = 'No enviar ninguna notificación';
 $txt['paid_email_error'] = 'Informar cuando la suscripción falle';
@@ -49,7 +49,7 @@ $txt['paid_currency_symbol_desc'] = 'Usa \'%1.2f\' para especificar dónde va el
 $txt['paypal_email'] = 'Dirección de email de Paypal';
 $txt['paypal_email_desc'] = 'Déjalo en blanco si no quieres usar Paypal';
 $txt['paypal_sandbox_email'] = 'Dirección de email de la sandbox de PayPal';
-$txt['paypal_sandbox_email_desc'] = 'Can be left blank if test mode is disabled or not using PayPal.';
+$txt['paypal_sandbox_email_desc'] = 'Se puede dejar en blanco si el modo de prueba está deshabilitado o no a través de PayPal.';
 $txt['worldpay_id'] = 'ID de instalación de WorldPlay';
 $txt['worldpay_id_desc'] = 'La ID de instalación generada por WorldPlay. Déjala en blanco si no vas a usar WorldPlay';
 $txt['worldpay_password'] = 'Contraseña de retorno de WorldPlay';
@@ -108,8 +108,8 @@ $txt['paid_mod_email_desc'] = 'Donde {NAME} es el nombre del usuario; {FORUM} es
 $txt['paid_mod_cost_usd'] = 'Coste (USD)';
 $txt['paid_mod_cost_eur'] = 'Coste (EUR)';
 $txt['paid_mod_cost_gbp'] = 'Coste (GBP)';
-$txt['paid_mod_cost_cad'] = 'Cost (CAD)';
-$txt['paid_mod_cost_aud'] = 'Cost (AUD)';
+$txt['paid_mod_cost_cad'] = 'Coste (CAD)';
+$txt['paid_mod_cost_aud'] = 'Coste (AUD)';
 $txt['paid_mod_cost_blank'] = 'Deja esto en blanco si no quieres ofrecer esta moneda.';
 $txt['paid_mod_span'] = 'Duración de la suscripción';
 $txt['paid_mod_span_days'] = 'Días';
@@ -153,7 +153,7 @@ $txt['delete_selected'] = 'Borrar seleccionados';
 $txt['complete_selected'] = 'Completar seleccionados';
 
 // @todo These strings are used in conjunction with JavaScript. Use numeric entities.
-$txt['delete_are_sure'] = 'Are you sure you want to delete all record of the selected subscriptions?';
+$txt['delete_are_sure'] = '¿Estás seguro de que quieres eliminar todos los registros de las suscripciones seleccionadas?';
 $txt['complete_are_sure'] = '¿Estás seguro de que quieres borrar por completo las suscripciones seleccionadas?';
 
 $txt['start_date'] = 'Fecha de Inicio';
@@ -191,13 +191,13 @@ $txt['paid_sub_return'] = 'Volver a Suscripciones';
 $txt['paid_current_desc'] = 'Debajo hay una lista de todas tus suscripciones actuales y previas. Para extender una suscripción existente simplemente selecciónala de la lista de arriba.';
 $txt['paid_admin_add'] = 'Añadir esta Suscripción';
 
-$txt['paid_not_set_currency'] = 'You have not setup your currency yet. Please do so from the settings menu before continuing';
+$txt['paid_not_set_currency'] = 'Usted no tiene la configuración de su moneda todavía. Por favor, hacerlo desde el menú de configuración antes de continuar.';
 $txt['paid_no_cost_value'] = 'Debe introducir un coste y un periodo de suscripción.';
-$txt['paid_invalid_duration'] = 'You must enter a valid duration for this subscription.';
-$txt['paid_invalid_duration_D'] = 'If putting in a subscription length measured in days, you can only use 1 to 90 days. If you want a subscription that long, you should use weeks, months or years.';
-$txt['paid_invalid_duration_W'] = 'If putting in a subscription length measured in weeks, you can only use 1 to 52 weeks. If you want a subscription that long, you should use months or years';
-$txt['paid_invalid_duration_M'] = 'If putting in a subscription length measured in months, you can only use 1 to 24 months. If you want a subscription that long, you should use years';
-$txt['paid_invalid_duration_Y'] = 'If putting in a subscription length measured in years, you can only use 1 to 5 years.';
+$txt['paid_invalid_duration'] = 'Debe introducir una duración válida para esta suscripción.';
+$txt['paid_invalid_duration_D'] = 'Si pone en una longitud de suscripción medido en días, sólo se puede utilizar 1 a 90 días. Si desea una suscripción mayor, debe utilizar semanas, meses o años.';
+$txt['paid_invalid_duration_W'] = 'Si pone en una longitud de suscripción medido en semanas, sólo se puede utilizar 1-52 semanas. Si desea una suscripción mayor, usted debe utilizar meses o años';
+$txt['paid_invalid_duration_M'] = 'Si pone en una longitud de suscripción medido en meses, sólo se puede usar de 1 a 24 meses. Si desea una suscripción mayor, debe utilizar años';
+$txt['paid_invalid_duration_Y'] = 'Si pone en una longitud de suscripción medido en años, sólo se puede utilizar 1-5 años.';
 $txt['paid_all_freq_blank'] = 'Debe introducir un coste para al menos uno de los cuatro periodos.';
 
 // Some error strings.
@@ -211,7 +211,7 @@ $txt['paid_empty_member'] = 'El manejador de suscripción de pago no pudo recupe
 $txt['paid_could_not_find_member'] = 'El manejador de suscripción de pago no pudo encontrar al usuario con ID: %1$d';
 $txt['paid_count_not_find_subscription'] = 'El manejador de suscripción de pago no pudo encontrar suscripción para la ID de usuario: %1$s, ID de suscripción: %2$s ';
 $txt['paid_count_not_find_subscription_log'] = 'El manejador de suscripción de pago no pudo encontrar entrada en el registro de suscripción para la ID de usuario: %1$s, ID de suscripción: %2$s ';
-$txt['paid_count_not_find_outstanding_payment'] = 'Coud not find outstanding payment entry for member ID: %1$s, subscription ID: %2$s so ignoring';
+$txt['paid_count_not_find_outstanding_payment'] = 'No se pudo encontrar el registro de pagos pendientes para el miembro ID: %1$s, suscripción ID: %2$s así que ignorar.';
 $txt['paid_admin_not_setup_gateway'] = 'Lo sentimos, el administrador aún no ha terminado de configurar las suscripciones de pago. Por favor, vuelva a intentarlo más tarde.';
 $txt['paid_make_recurring'] = 'Hacer un pago periódico';
 
