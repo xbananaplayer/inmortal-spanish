@@ -119,14 +119,14 @@ $txt['errortype_database_desc'] = 'Errores causados por consultas a la BD defect
 $txt['errortype_undefined_vars'] = 'Indefinidos';
 $txt['errortype_undefined_vars_desc'] = 'Errores causados por el uso de variables, índices u offsets indefinidos.';
 $txt['errortype_ban'] = 'Bans';
-$txt['errortype_ban_desc'] = 'A log of banned users trying to access your forum.';
+$txt['errortype_ban_desc'] = 'Registro de usuarios baneados que intentan acceder a tu foro.';
 $txt['errortype_template'] = 'Plantillas';
 $txt['errortype_template_desc'] = 'Errores relacionados con la carga de plantillas.';
 $txt['errortype_user'] = 'Usuario';
 $txt['errortype_user_desc'] = 'Errores causados por los usuarios.  Incluyen contraseñas incorrectas, intentos de acceso cuando se está baneado e intentos de realizar acciones para las que no se tienen permisos.';
 $txt['errortype_cron'] = 'Cron';
-$txt['errortype_cron_desc'] = 'Errors resulting from background tasks.';
-$txt['errortype_paidsubs'] = 'Errors resulting from paid subscriptions, which can include notification of payment failures.';
+$txt['errortype_cron_desc'] = 'Errores resultantes de las tareas de fondo';
+$txt['errortype_paidsubs'] = 'Los errores resultantes de suscripciones de pago, que pueden incluir la notificación de los fallos de pago.';
 
 $txt['maintain_recount'] = 'Volver a contar los totales y las estadísticas de todos los foros';
 $txt['maintain_recount_info'] = 'Si el total de respuestas de un tema o el número de MPs en tu bandeja de entrada son incorrectos, esta función recontará todos los conteos y estadísticas guardados.';
@@ -192,12 +192,12 @@ $txt['utf8_cannot_convert_fulltext'] = 'Tu tabla de mensajes está usando un ín
 
 $txt['text_title'] = 'Convertir a TEXTO';
 $txt['mediumtext_title'] = 'Convertir a MEDIUMTEXT';
-$txt['mediumtext_introduction'] = 'The default messages table can contain posts up to a size of 65535 characters, in order be able to store bigger texts the column must be converted to "MEDIUMTEXT". It is also possible to revert the column back to TEXT (that operation would reduce the space occupied), but <strong>only if</strong> none of the posts in your database exceed the size of 65535 characters. This condition will be verified before the conversion.';
-$txt['body_checking_introduction'] = 'This function will convert the column of your database that contains the text of the messages into a "TEXT" format (currently is "MEDIUMTEXT"). This operation will allow to slightly reduce the amount of space occupied by each message (1 byte per message). If any message stored into the database is longer than 65535 characters it will be truncated and part of the text will be lost.';
-$txt['exceeding_messages'] = 'The following messages are longer than 65535 characters and will be truncated by the process:';
-$txt['exceeding_messages_morethan'] = 'And other %1$d';
-$txt['convert_to_text'] = 'No messages are longer than 65535 characters. You can safely proceed with the conversion without losing any part of the text.';
-$txt['convert_to_suggest_text'] = 'The messages body column in your database is currently set as MEDIUMTEXT, but the maximum allowed length set for the messages is lower than 65535 characters. You may free some space converting the column to TEXT.';
+$txt['mediumtext_introduction'] = 'La tabla de mensajes por defecto puede contener mensajes de hasta un tamaño de 65.535 caracteres, con el fin de ser capaz de almacenar los textos más grandes de la columna debe ser convertido a "MEDIUMTEXT". También es posible revertir la columna de volver al texto (que la operación reduciría el espacio ocupado), pero <strong>sólo si</strong> ninguno de los cargos en su base de datos supera el tamaño de 65535 caracteres. Esta condición será verificada antes de la conversión.';
+$txt['body_checking_introduction'] = 'Esta función convierte la columna de la base de datos que contiene el texto de los mensajes en un formato "TEXTO" (actualmente es "MEDIUMTEXT"). Esta operación permitirá reducir ligeramente la cantidad de espacio ocupado por cada mensaje (1 byte por mensaje). Si cualquier mensaje almacenado en la base de datos es más largo que 65.535 caracteres se truncará y se perderá parte del texto.';
+$txt['exceeding_messages'] = 'Los siguientes mensajes son más de 65.535 caracteres y serán truncados por el proceso:';
+$txt['exceeding_messages_morethan'] = 'Y otro %1$d';
+$txt['convert_to_text'] = 'No hay mensajes con más de 65.535 caracteres. Usted puede proceder con seguridad con la conversión sin perder ninguna parte del texto.';
+$txt['convert_to_suggest_text'] = 'La columna de mensajes cuerpo en su base de datos se configura actualmente como MEDIUMTEXT, pero el máximo permitido conjunto longitud de los mensajes es menor que 65.535 caracteres. Puede liberar algo de espacio de la conversión de la columna para TEXT.';
 
 $txt['entity_convert_title'] = 'Convertir entidades-HTML a caracteres UTF-8';
 $txt['entity_convert_only_utf8'] = 'La base de datos debe estar codificada en formato UTF-8 antes de que las entidades-HTML puedan ser convertidas a UTF-8';
@@ -211,10 +211,10 @@ $txt['move_topics_from'] = 'Mover temas desde';
 $txt['move_topics_to'] = 'hacia';
 $txt['move_topics_now'] = 'Mover ahora';
 $txt['move_topics_confirm'] = '¿Está seguro de que quiere mover TODOS los temas desde &quot;%board_from%&quot; hacia &quot;%board_to%&quot;?';
-$txt['move_topics_older_than'] = 'Move topics not posted in for ';
-$txt['move_type_sticky'] = 'Sticky topics';
-$txt['move_type_locked'] = 'Locked topics';
-$txt['move_zero_all'] = 'Enter 0 to move all topics';
+$txt['move_topics_older_than'] = 'Mover temas no comentados por ';
+$txt['move_type_sticky'] = 'Temas fijados';
+$txt['move_type_locked'] = 'Temas cerrados';
+$txt['move_zero_all'] = 'Introduzca 0 para mover todos los temas';
 
 $txt['maintain_reattribute_posts'] = 'Volver a adjudicar posts de usuario';
 $txt['reattribute_guest_posts'] = 'Adjudicar posts de invitado hechos con';
@@ -229,14 +229,14 @@ $txt['reattribute_confirm_username'] = 'nombre de usuario';
 $txt['reattribute_confirm_email'] = 'dirección de email';
 $txt['reattribute_cannot_find_member'] = 'No se pudo encontrar ese usuario para atribuirle los posts.';
 
-$txt['maintain_recountposts'] = 'Recount User Posts';
-$txt['maintain_recountposts_info'] = 'Run this maintenance task to update your users total post count. It will recount all (countable) posts made by each user and then update their profile post count totals';
+$txt['maintain_recountposts'] = 'Contar mensajes de usuario';
+$txt['maintain_recountposts_info'] = 'Ejecutar esta tarea de mantenimiento para actualizar sus usuarios en total recuento de entradas. Será contar todas las respuestas (contables) realizadas por cada usuario y luego actualizar sus totales de recuento perfil';
 
-$txt['safe_mode_enabled'] = '<a href="http://php.net/manual/en/features.safe-mode.php">safe_mode</a> is enabled on your server!<br>The backup done with this tool cannot be considered reliable!';
-$txt['use_external_tool'] = 'Please consider using an external tool to backup your database, any backup created with this utility cannot be considered 100% reliable.';
-$txt['zipped_file'] = 'If you want you can create a compressed (zipped) backup.';
-$txt['plain_text'] = 'The best method to backup your database is to create a plain text file, a compressed package may not be completely reliable.';
-$txt['enable_maintenance1'] = 'Due to the size of your forum, it is recommended to place your forum in "maintenance mode" before you start the backup.';
-$txt['enable_maintenance2'] = 'To proceed, due to the size of your forum, please place your forum in "maintenance mode".';
+$txt['safe_mode_enabled'] = '<a href="http://php.net/manual/en/features.safe-mode.php">safe_mode</a> está activado en tu servidor!<br>La copia de seguridad realizada con esta herramienta no puede considerarse fiable!';
+$txt['use_external_tool'] = 'Por favor, considere el uso de una herramienta externa para copia de seguridad de base de datos, cualquier copia de seguridad creada con esta utilidad no puede considerarse 100% fiable.';
+$txt['zipped_file'] = 'Si quieres puedes crear una copia de seguridad comprimida (en zip).';
+$txt['plain_text'] = 'El mejor método para copia de seguridad de su base de datos es crear un archivo de texto plano, un paquete comprimido no puede ser completamente fiable.';
+$txt['enable_maintenance1'] = 'Debido al tamaño de su foro, se recomienda colocar el foro en el "modo de mantenimiento" antes de iniciar la copia de seguridad.';
+$txt['enable_maintenance2'] = 'Para continuar, debido al tamaño de tu foro, por favor coloque el foro en el "modo de mantenimiento".';
 
 ?>
