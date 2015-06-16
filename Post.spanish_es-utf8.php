@@ -10,18 +10,18 @@ $txt['message_body_not_filled'] = 'El campo Mensaje no puede estar vacío.';
 // Use numeric entities in the below string.
 $txt['add_bbc'] = 'Agregar etiquetas BBC';
 
-$txt['disable_smileys'] = 'Desactivar Smileys';
-$txt['dont_use_smileys'] = 'No usar smileys.';
+$txt['disable_smileys'] = 'Desactivar emoticonos';
+$txt['dont_use_smileys'] = 'No usar emoticonos.';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_on'] = 'Publicado en';
 $txt['standard'] = 'Estándar';
 $txt['thumbs_up'] = 'Pulgar Arriba';
 $txt['thumbs_down'] = 'Pulgar Abajo';
-$txt['exclamation_point'] = 'Exclamation point';
+$txt['exclamation_point'] = 'Punto de exclamación';
 $txt['question_mark'] = 'Pregunta';
 $txt['icon_poll'] = 'Encuesta';
 $txt['lamp'] = 'Bombilla';
-$txt['add_smileys'] = 'Agregar Smileys';
+$txt['add_smileys'] = 'Agregar emoticonos';
 $txt['topic_notify_no'] = 'No hay temas con notificación.';
 // post_too_long seems unused (duplicate in Errors: error_post_too_long
 $txt['post_too_long'] = 'Tu mensaje es muy largo. Por favor vuelve y acórtalo, después inténtalo nuevamente.';
@@ -33,10 +33,10 @@ $txt['lock_after_post'] = 'Cerrar tema después de publicar el mensaje';
 $txt['notify_replies'] = 'Notificarme al haber nuevas respuestas.';
 $txt['lock_topic'] = 'Cerrar este tema.';
 $txt['shortcuts'] = 'teclas método abreviado (sólo IE y Mozilla): presiona alt+s para enviar formulario/publicar o alt+p para previsualizar';
-$txt['shortcuts_drafts'] = 'Atajos: alt+s enviar/publicar, alt+p previsualizar o alt+d guardar borrador';
+$txt['shortcuts_drafts'] = 'Atajos de teclado: alt+s para enviar/publicar, alt+p para previsualizar o alt+d paraguardar borrador';
 $txt['shortcuts_firefox'] = 'Atajos de teclado: Presiona shift+alt+s para enviar/publicar o shift+alt+p para previsualizarlo
 ';
-$txt['shortcuts_drafts_firefox'] = 'shortcuts: shift+alt+s submit/post, shift+alt+p preview or shift+alt+d save draft';
+$txt['shortcuts_drafts_firefox'] = 'Atajos de teclado: shift+alt+s para enviar/publicar, shift+alt+p para previsualizar or shift+alt+d para guardar borrador.';
 $txt['option'] = 'Opción';
 $txt['reset_votes'] = 'Reinicializar conteo de votos';
 $txt['reset_votes_check'] = 'Selecciona esto si deseas reinicializar todos los conteos de votos a 0.';
@@ -69,11 +69,11 @@ $txt['report_comment'] = 'La persona que reportó el mensaje hizo el siguiente c
 // Use numeric entities in the below three strings.
 $txt['report_profile'] = 'Reportar el perfil de \'%1$s\'';
 $txt['reported_profile'] = 'Usuaro reportado';
-$txt['report_following_user'] = 'The profile of "%1$s" at %2$s';
+$txt['report_following_user'] = 'Perfil de "%1$s" en %2$s';
 
-$txt['attach_restrict_attachmentPostLimit'] = 'tamaño total máximo %1$dKB';
-$txt['attach_restrict_attachmentPostLimit_MB'] = 'maximum total size %1$d MB';
-$txt['attach_restrict_attachmentSizeLimit'] = 'tamaño individual máximo %1$dKB';
+$txt['attach_restrict_attachmentPostLimit'] = 'tamaño total máximo %1$d KB';
+$txt['attach_restrict_attachmentPostLimit_MB'] = 'tamaño total máximo %1$d MB';
+$txt['attach_restrict_attachmentSizeLimit'] = 'tamaño individual máximo %1$d KB';
 $txt['attach_restrict_attachmentSizeLimit_MB'] = 'tamaño individual máximo %1$d MB';
 $txt['attach_restrict_attachmentNumPerPostLimit'] = '%1$d por post';
 $txt['attach_restrictions'] = 'Restricciones:';
@@ -117,7 +117,7 @@ $txt['more_attachments_error'] = 'Lo sentimos, no estás autorizado para adjunta
 
 $txt['more_smileys'] = 'más';
 $txt['more_smileys_title'] = 'Smileys adicionales';
-$txt['more_smileys_pick'] = 'Selecciona un smiley';
+$txt['more_smileys_pick'] = 'Selecciona un emoticono';
 $txt['more_smileys_close_window'] = 'Cerrar ventana';
 
 $txt['error_new_reply'] = 'Advertencia - mientras estabas escribiendo, una nueva respuesta fue publicada. Probablemente desees revisar tu mensaje.';
@@ -125,10 +125,10 @@ $txt['error_new_replies'] = 'Advertencia - mientras estabas escribiendo, fueron 
 $txt['error_new_reply_reading'] = 'Advertencia - mientras estabas leyendo, una nueva respuesta fue publicada. Probablemente desees revisar tu mensaje.';
 $txt['error_new_replies_reading'] = 'Advertencia - mientras estabas leyendo, fueron publicadas %1$d respuestas. Probablemente desees revisar tu mensaje.';
 
-$txt['error_topic_locked'] = 'Warning - while you were typing the topic was locked. Please check the "Lock this topic" box under "Attachments and other options" below if you do not wish to undo this action.';
-$txt['error_topic_unlocked'] = 'Warning - while you were typing the topic was locked. Please uncheck the "Lock this topic" box under "Attachments and other options" below if you do not wish to undo this action.';
-$txt['error_topic_stickied'] = 'Warning - while you were typing the topic was stickied. Please check the "Sticky this topic" box under "Attachments and other options" below if you do not wish to undo this action.';
-$txt['error_topic_unstickied'] = 'Warning - while you were typing the topic was unstickied. Please uncheck the "Sticky this topic" box under "Attachments and Other Options" below if you do not wish to undo this action.';
+$txt['error_topic_locked'] = 'Advertencia - mientras estabas escribiendo, el tema fue bloqueado. Por favor, active la casilla "Lista de temas bloqueados" bajo "Adjuntos y otras opciones" si no deseas deshacer esta acción.';
+$txt['error_topic_unlocked'] = 'Advertencia - mientras estabas escribiendo, el tema fue desbloqueado. Por favor, desactive la casilla "Bloquear este tema" bajo "Archivos adjuntos y otras opciones" si no deseas deshacer esta acción.';
+$txt['error_topic_stickied'] = 'Advertencia - mientras estabas escribiendo, el tema fue fijado. Por favor, active la casilla "Fijar este tema" bajo "Archivos adjuntos y otras opciones" si no deseas deshacer esta acción.';
+$txt['error_topic_unstickied'] = 'Advertencia - mientras estabas escribiendo, el tema fue desfijado. Por favor, desactive la casilla "Fijar este tema" bajo "Archivos adjuntos y otras opciones" si no deseas deshacer esta acción.';
 
 $txt['announce_this_topic'] = 'Enviar un anuncio sobre este tema a los usuarios:';
 $txt['announce_title'] = 'Enviar un anuncio';
@@ -160,16 +160,16 @@ $txt['digest_mod_act_split'] = '"%1$s" fue dividido';
 $txt['attach_error_title'] = 'Error al cargar adjuntos.';
 $txt['attach_warning'] = 'Hubo un problema durante la carga de <strong>%1$s</strong>. ';
 $txt['attach_check_nag'] = 'No se puede continuar debido a datos incompletos (%1$s).';
-$txt['attach_max_total_file_size'] = 'Sorry, you are out of attachment space. The total attachment size allowed per post is %1$s KB. Space remaining is %2$s kB.';
-$txt['attach_folder_warning'] = 'The attachments directory can not be located. Please notify an administrator of this problem.';
-$txt['attach_folder_admin_warning'] = 'The path to the attachments directory (%1$s) is incorrect. Please correct it in the attachment settings area of your admin panel.';
-$txt['attach_limit_nag'] = 'You have reached the maximum number of attachments allowed per post.';
-$txt['attach_no_upload'] = 'There was a problem and your attachments could not be uploaded';
+$txt['attach_max_total_file_size'] = 'Lo sentimos, sobrepasa el espacio adjunto. El tamaño total permitido para adjuntar por post es de %1$s KB. Espacio restante es %2$s kB.';
+$txt['attach_folder_warning'] = 'El directorio de archivos adjuntos no puede ser localizado. Por favor notifique al administrador sobre este problema.';
+$txt['attach_folder_admin_warning'] = 'La ruta de archivos adjuntos (%1$s) es incorrecta. Por favor, corrija esto en los ajustes de archivos adjuntos en su panel de administración.';
+$txt['attach_limit_nag'] = 'Has alcanzado el número máximo de archivos adjuntos permitidos por mensaje.';
+$txt['attach_no_upload'] = 'Hubo un problema y sus archivos adjuntos no se pudieron cargar';
 $txt['attach_remaining'] = '%1$d restante';
-$txt['attach_available'] = '%1$s KB available';
+$txt['attach_available'] = '%1$s KB disponible';
 $txt['attach_kb'] = ' (%1$s KB)';
-$txt['attach_0_byte_file'] = 'The file appears to be empty. Please contact your forum administrator if this continues to be a problem';
-$txt['attached_files_in_session'] = '<em>The above underlined file(s) have been uploaded but will not be attached to this post until it is submitted.</em>';
+$txt['attach_0_byte_file'] = 'El archivo aparece vacío. Por favor, contacte con el administrador del foro si continua con este problema.';
+$txt['attached_files_in_session'] = '<em>Archivo(s) subrayado(s) anteriormente se han subido, pero no se adjunta a este mensaje hasta que se confirme.</em>';
 
 $txt['attach_php_error'] = 'Due to an error, your attachment could not be uploaded. Please contact the forum administrator if this problem continues.';
 $txt['php_upload_error_1'] = 'The uploaded file exceeds the upload_max_filesize directive in php.ini. Please contact your host if you are unable to correct this issue.';
