@@ -32,6 +32,6 @@ $txt['manual_section_memberlist_desc'] = 'La lista de usuarios muestra todos los
 $txt['manual_section_calendar_desc'] = 'Los usuarios pueden hacer un seguimiento de eventos, vacaciones y cumpleaños con el calendario.';
 $txt['manual_section_features_desc'] = 'Aquí hay una lista de las características más populares de Inmortal.';
 
-$txt['agreement_disabled'] = 'Registration agreement disabled';
+$txt['agreement_disabled'] = 'Acuerdo de registro deshabilitado';
 
 ?>
