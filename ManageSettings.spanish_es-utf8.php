@@ -349,15 +349,15 @@ $txt['languages_download_complete'] = 'Instalación completada';
 $txt['languages_download_complete_desc'] = 'El paquete de idioma se instaló correctamente. Por favor haga clic <a href="%1$s">aquí</a> para volver a la página de idiomas';
 $txt['languages_delete_confirm'] = '¿Estás seguro de que quieres eliminar este idioma?';
 
-$txt['setting_frame_security'] = 'Frame Security Options';
-$txt['setting_frame_security_SAMEORIGIN'] = 'Allow Same Origin';
-$txt['setting_frame_security_DENY'] = 'Deny all frames';
-$txt['setting_frame_security_DISABLE'] = 'Disabled';
+$txt['setting_frame_security'] = 'Opciones de seguridad del marco';
+$txt['setting_frame_security_SAMEORIGIN'] = 'Permitir el mismo origen';
+$txt['setting_frame_security_DENY'] = 'Denegar todos los marcos';
+$txt['setting_frame_security_DISABLE'] = 'Inhabilitado';
 
-$txt['select_boards_from_list'] = 'Select boards which apply';
+$txt['select_boards_from_list'] = 'Seleccionar los posts de la lista';
 
-$txt['topic_move_any'] = 'Allow moving of topics to read-only boards';
+$txt['topic_move_any'] = 'Permitir movimiento de temas a los posts de sólo lectura';
 
-$txt['defaultMaxListItems'] = 'Maximum number of items per page in lists';
+$txt['defaultMaxListItems'] = 'El número máximo de objetos por página en las listas';
 
 ?>
