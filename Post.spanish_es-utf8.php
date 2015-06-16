@@ -171,27 +171,27 @@ $txt['attach_kb'] = ' (%1$s KB)';
 $txt['attach_0_byte_file'] = 'El archivo aparece vacío. Por favor, contacte con el administrador del foro si continua con este problema.';
 $txt['attached_files_in_session'] = '<em>Archivo(s) subrayado(s) anteriormente se han subido, pero no se adjunta a este mensaje hasta que se confirme.</em>';
 
-$txt['attach_php_error'] = 'Due to an error, your attachment could not be uploaded. Please contact the forum administrator if this problem continues.';
-$txt['php_upload_error_1'] = 'The uploaded file exceeds the upload_max_filesize directive in php.ini. Please contact your host if you are unable to correct this issue.';
-$txt['php_upload_error_3'] = 'The uploaded file was only partially uploaded. This is a PHP related error. Please contact your host if this problem continues.';
-$txt['php_upload_error_4'] = 'No file was uploaded. This is a PHP related error. Please contact your host if this problem continues.';
-$txt['php_upload_error_6'] = 'Unable to save. Missing a temporary directory. Please contact your host if you are unable to correct this problem.';
-$txt['php_upload_error_7'] = 'Failed to write file to disk. This is a PHP related error. Please contact your host if this problem continues.';
-$txt['php_upload_error_8'] = 'A PHP extension stopped the file upload. This is a PHP related error. Please contact your host if this problem continues.';
-$txt['error_temp_attachments_new'] = 'There are attachments which you had previously attached but not posted. These attachments are still attached to this post. This post does need to be submitted before these attachments are either saved or removed. You can do that <a href="#postAttachment">here</a>';
-$txt['error_temp_attachments_found'] = 'The following attachments were found which you had previously attached to another post but not posted. It is advisable that you do not post until these are either removed or that post has been submitted.<br>Click <a href="%1$s">here</a> to remove those attachments. Or <a href="%2$s">here</a> to return to that post.%3$s';
-$txt['error_temp_attachments_lost'] = 'The following attachments were found which you had previously attached to another post but not posted. It is advisable that you do not upload any more attachments until these are removed or that post has been submitted.<br>Click <a href="%1$s">here</a> to remove these attachments.%2$s';
-$txt['error_temp_attachments_gone'] = 'Those attachments have now been removed and you have been returned to the page you were previously on';
-$txt['error_temp_attachments_flushed'] = 'Please note that any files which had been previously attached but not posted have now been removed.';
-$txt['error_topic_already_announced'] = 'Please note that this topic has already been announced.';
+$txt['attach_php_error'] = 'Debido a un error, el archivo adjunto no se pudo cargar. Por favor, póngase en contacto con el administrador del foro, si este problema continúa.';
+$txt['php_upload_error_1'] = 'El archivo subido excede la directiva upload_max_filesize en php.ini. Póngase en contacto con su proveedor de alojamiento si usted es incapaz de corregir este problema.';
+$txt['php_upload_error_3'] = 'El archivo subido fue sólo parcialmente subido. Se trata de un error de PHP. Póngase en contacto con su host si este problema continúa.';
+$txt['php_upload_error_4'] = 'Ningún archivo fue subido. Se trata de un error de PHP. Póngase en contacto con su host si este problema continúa.';
+$txt['php_upload_error_6'] = 'No se puede guardar. Falta un directorio temporal. Póngase en contacto con su proveedor de alojamiento si usted es incapaz de corregir este problema.';
+$txt['php_upload_error_7'] = 'Error al escribir el archivo en el disco. Se trata de un error de PHP. Póngase en contacto con su host si este problema continúa.';
+$txt['php_upload_error_8'] = 'Una extensión de PHP detuvo la carga de archivos. Se trata de un error de PHP. Póngase en contacto con su host si este problema continúa.';
+$txt['error_temp_attachments_new'] = 'Hay datos adjuntos que previamente adjuntaste pero no publicaste. Estos archivos adjuntos todavía están en este mensaje. Este post necesita ser enviado antes de que estos archivos adjuntos estén bien guardados o eliminados. Puedes hacer esto <a href="#postAttachment">aquí</a>';
+$txt['error_temp_attachments_found'] = 'Los siguientes archivos adjuntos fueron encontrados donde previamente adjuntaste en otro post pero no publicaste. Es aconsejable que usted no publique hasta que estos sean eliminados o este post haya sido publicado.<br>Click <a href="%1$s">aquí</a> para eliminar los archivos adjuntos. O <a href="%2$s">aquí</a> para volver al post.%3$s';
+$txt['error_temp_attachments_lost'] = 'Los siguientes archivos adjuntos fueron encontrados donde previamente adjuntaste en otro post pero no publicaste. Es aconsejable que no cargue ningún archivo adjunto hasta que sean eliminados o este post haya sido publicado.<br>Click <a href="%1$s">aquí</a> para eliminar archivos adjuntos.%2$s';
+$txt['error_temp_attachments_gone'] = 'Esos archivos adjuntos ahora se han eliminado y se te ha envíado a la página que estabas anteriormente';
+$txt['error_temp_attachments_flushed'] = 'Tenga en cuenta que todos los archivos que habían sido adjuntados previamente pero no publicados ahora se han eliminado.';
+$txt['error_topic_already_announced'] = 'Tenga en cuenta que este tema ya se ha anunciado.';
 
-$txt['cant_access_upload_path'] = 'Cannot access attachments upload path!';
-$txt['file_too_big'] = 'Your file is too large. The maximum attachment size allowed is %1$d KB.';
-$txt['attach_timeout'] = 'Your attachment couldn\'t be saved. This might happen because it took too long to upload or the file is bigger than the server will allow.<br><br>Please consult your server administrator for more information.';
-$txt['bad_attachment'] = 'Your attachment has failed security checks and cannot be uploaded. Please consult the forum administrator.';
-$txt['ran_out_of_space'] = 'The upload directory is full. Please contact an administrator about this problem.';
-$txt['attachments_no_write'] = 'The attachments upload directory is not writable. Your attachment or avatar cannot be saved.';
-$txt['attachments_no_create'] = 'Unable to create a new attachment directory. Your attachment or avatar cannot be saved.';
+$txt['cant_access_upload_path'] = '¡No se puede acceder a la ruta de carga de archivos adjuntos!';
+$txt['file_too_big'] = 'El archivo es demasiado grande. El tamaño máximo permitido es %1$d KB.';
+$txt['attach_timeout'] = 'Su archivo adjunto no se puede guardar. Esto puede ocurrir porque tomó demasiado tiempo para cargar o el archivo es más grande que el permitido por el servidor. <br><br> Por favor, consulte con el administrador del servidor para obtener más información.';
+$txt['bad_attachment'] = 'Su archivo adjunto ha fallado los controles de seguridad y no puede ser cargado. Por favor, consulte con el administrador del foro.';
+$txt['ran_out_of_space'] = 'El directorio de carga está llena. Por favor, póngase en contacto con el administrador sobre este problema.';
+$txt['attachments_no_write'] = 'El directorio de archivos adjuntos de carga no se puede escribir. Sus datos adjuntos o avatar no se pueden guardar.';
+$txt['attachments_no_create'] = 'No se puede crear un nuevo directorio de archivos adjuntos. Sus datos adjuntos o avatar no se pueden guardar.';
 $txt['attachments_limit_per_post'] = 'No puedes cargar más de %1$d adjuntos por mensaje';
 
 ?>
