@@ -18,12 +18,12 @@ $txt['mc_watched_topics'] = 'Temas Vigilados';
 $txt['mc_scratch_board'] = 'Tablón de Inicio del Moderador';
 $txt['mc_latest_news'] = 'Últimas Noticias de K Dev Team';
 $txt['mc_recent_reports'] = 'Informes Recientes de Temas';
-$txt['mc_recent_user_reports'] = 'Recent Profile Reports';
+$txt['mc_recent_user_reports'] = 'Reportes recientes de perfil';
 $txt['mc_warnings'] = 'Advertencias';
 $txt['mc_notes'] = 'Notas de Moderador';
 
 $txt['mc_notes_delete_own'] = 'Sólo tienes permiso para borrar tus propias notas.';
-$txt['mc_cannot_connect_sm'] = 'No puedes conectarte al último archivo de simplemachines.org\'s';
+$txt['mc_cannot_connect_sm'] = 'No puedes conectarte al último archivo de noticias de simplemachines.org\'s';
 
 $txt['mc_recent_reports_none'] = 'No hay informes a destacar';
 $txt['mc_watched_users_none'] = 'Actualmente no está teniendo lugar ninguna vigilancia.';
